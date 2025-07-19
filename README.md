@@ -28,7 +28,8 @@ Bipedal locomotion is a notoriously difficult problem in robotics and AI. This p
 The entire learning process is powered by the **Unity ML-Agents** toolkit, using a Python backend for training the model. The goal was to observe if complex, human-like walking patterns could emerge purely from a simple set of rewards and penalties in a simulated physical world.
 
 *Unity Editor "Scene" View:*
-![Unity Scene View](./ML-Walker(scene).gif)
+
+![Unity Scene View](./walker-showcase/ML-Walker(scene).gif)
 
 ---
 
@@ -63,11 +64,9 @@ The agent learns through a process of trial, error, and reward. At each step, it
     * **`-` Negative Reward (Penalty):** Given if the agent's body touches the ground.
 3.  **Learning Algorithm:** The PPO algorithm updates the agent's neural network based on its experiences. To accelerate this, the environment was set up for multi-agent training, allowing multiple agents to learn in parallel, as shown below.
 
-[cite_start]*Multi-Agent Training in Action:*
-![Multi-Agent Training Video](./ML-walker(multi%20agent%20video).gif)
+*Multi-Agent Training in Action:*
 
-[cite_start]*Static View of the Multi-Agent Setup:*
-![Multi-Agent Training Setup](./ML-walker(multi%20agent%20view).png)
+![Multi-Agent Training Video](./walker-showcase/ML-walker(multiagent%20video).gif)
 
 ---
 
@@ -85,4 +84,4 @@ The training process revealed a fascinating progression of learning:
 
 Nimesh Chauhan - [nimesh.chn@gmail.com](mailto:nimesh.chn@gmail.com)
 
-Project Link: `https://github.com/Weirdnemo/humanoid-agent-rl` (Note: please update this link to the correct repository)
+Project Link: `https://github.com/Weirdnemo/Human-bipedal-UnityML`
